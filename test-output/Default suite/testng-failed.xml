@@ -5,7 +5,9 @@
     <classes>
       <class name="BDD.Get_Demo1">
         <methods>
-          <include name="tc1"/>
+          <include name="DriverPreparaion"/>
+          <include name="TC_1"/>
+          <include name="SuiteExection"/>
         </methods>
       </class> <!-- BDD.Get_Demo1 -->
     </classes>
