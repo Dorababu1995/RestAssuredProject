@@ -33,8 +33,8 @@ public class Get_Demo1 {
 	private void DriverPreparaion() {
 		
 		
-	//	System.setProperty("webdriver.chrome.driver","C:/Users/chodavarapudorababu/Downloads/drivers/drivers/chromedriver-win64/chromedriver.exe");	
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver","C:/Users/chodavarapudorababu/Downloads/drivers/drivers/chromedriver-win64/chromedriver.exe");	
+//		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
