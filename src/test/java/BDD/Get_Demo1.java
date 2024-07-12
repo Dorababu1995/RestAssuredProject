@@ -7,6 +7,7 @@ import static org.hamcrest.Matcher.*;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -35,6 +36,14 @@ public class Get_Demo1 {
 		
 		System.setProperty("webdriver.chrome.driver","C:/Users/chodavarapudorababu/OneDrive - Nagarro/Desktop/Learning Floder/git/RestAssuredProject1/chromedriver-win64/chromedriver.exe");	
 //		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		// Must maximize Chrome by `start-maximized`
+		options.addArguments("start-maximized");
+
+		
+		driver.manage().window().maximize();
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
