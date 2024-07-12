@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
 
 public class Get_Demo1 {
 
-	public static WebDriver driver;
+	public static WebDriver driver=null;
 	
 	
 	@BeforeSuite
@@ -34,27 +34,23 @@ public class Get_Demo1 {
 	private void DriverPreparaion() {
 		
 		
-		System.setProperty("webdriver.chrome.driver","C:/Users/chodavarapudorababu/OneDrive - Nagarro/Desktop/Learning Floder/git/RestAssuredProject1/chromedriver-win64/chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/chromedriver-win64/chromedriver.exe");	
 //		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("headless");
+//		options.addArguments("headless");
 		// Must maximize Chrome by `start-maximized`
 		options.addArguments("start-maximized");
 
-		
-		driver.manage().window().maximize();
-		
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		
-		driver.get("https://www.facebook.com/");
 		
 
+		
+		
+		
+		driver.get("https://www.facebook.com/");
+	
 	}
-	
-	
-	
-	
+
 	@Test(description = "validate the title of the page")
 	private void TC_1() {
 		
