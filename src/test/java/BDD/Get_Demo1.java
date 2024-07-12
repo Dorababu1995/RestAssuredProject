@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 
@@ -33,7 +33,7 @@ public class Get_Demo1 {
 	private void DriverPreparaion() {
 		
 		
-		System.setProperty("webdriver.chrome.driver","C:/Users/chodavarapudorababu/Downloads/drivers/drivers/chromedriver-win64/chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver","C:/Users/chodavarapudorababu/OneDrive - Nagarro/Desktop/Learning Floder/git/RestAssuredProject1/chromedriver-win64/chromedriver.exe");	
 //		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
