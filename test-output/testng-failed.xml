@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BDD.Get_Demo1">
+      <class name="BrowserStack.ApkAndriodDevice">
         <methods>
-          <include name="DriverPreparaion"/>
-          <include name="TC_1"/>
-          <include name="Tear"/>
-          <include name="SuiteExection"/>
+          <include name="SetUp"/>
+          <include name="Tc1"/>
+          <include name="SuiteStarted"/>
+          <include name="teardown"/>
+          <include name="Urllunch"/>
         </methods>
-      </class> <!-- BDD.Get_Demo1 -->
+      </class> <!-- BrowserStack.ApkAndriodDevice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
