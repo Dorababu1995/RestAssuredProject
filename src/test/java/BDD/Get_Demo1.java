@@ -37,7 +37,7 @@ public class Get_Demo1 {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/chromedriver-win64/chromedriver.exe");	
 //		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-//		options.addArguments("headless");
+		options.addArguments("headless");
 		// Must maximize Chrome by `start-maximized`
 		options.addArguments("start-maximized");
 

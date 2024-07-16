@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="BDD.Get_Demo1"/>
+      <class name="BrowserStack.ChromRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

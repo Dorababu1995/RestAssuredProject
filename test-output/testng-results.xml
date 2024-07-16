@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-12T17:37:32 IST" name="Default suite" finished-at="2024-07-12T17:37:36 IST" duration-ms="4162">
+  <suite started-at="2024-07-16T12:59:40 IST" name="Suite" finished-at="2024-07-16T13:00:00 IST" duration-ms="19811">
     <groups>
     </groups>
-    <test started-at="2024-07-12T17:37:32 IST" name="Default test" finished-at="2024-07-12T17:37:36 IST" duration-ms="4162">
-      <class name="BDD.Get_Demo1">
-        <test-method is-config="true" signature="SuiteExection()[pri:0, instance:BDD.Get_Demo1@732c2a62]" started-at="2024-07-12T17:37:32 IST" name="SuiteExection" finished-at="2024-07-12T17:37:32 IST" duration-ms="6" status="PASS">
+    <test started-at="2024-07-16T12:59:40 IST" name="Test" finished-at="2024-07-16T13:00:00 IST" duration-ms="19811">
+      <class name="BrowserStack.ChromRunner">
+        <test-method is-config="true" signature="suite()[pri:0, instance:BrowserStack.ChromRunner@66d3eec0]" started-at="2024-07-16T12:59:40 IST" name="suite" finished-at="2024-07-16T12:59:40 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SuiteExection -->
-        <test-method is-config="true" signature="DriverPreparaion()[pri:0, instance:BDD.Get_Demo1@732c2a62]" started-at="2024-07-12T17:37:32 IST" name="DriverPreparaion" finished-at="2024-07-12T17:37:36 IST" duration-ms="3655" status="PASS">
+        </test-method> <!-- suite -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:BrowserStack.ChromRunner@66d3eec0]" started-at="2024-07-16T12:59:40 IST" name="SetUp" finished-at="2024-07-16T12:59:49 IST" duration-ms="8859" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DriverPreparaion -->
-        <test-method signature="TC_1()[pri:0, instance:BDD.Get_Demo1@732c2a62]" started-at="2024-07-12T17:37:36 IST" name="TC_1" description="validate the title of the page" finished-at="2024-07-12T17:37:36 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="URLOPEN()[pri:0, instance:BrowserStack.ChromRunner@66d3eec0]" started-at="2024-07-16T12:59:49 IST" name="URLOPEN" finished-at="2024-07-16T12:59:58 IST" duration-ms="9436" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_1 -->
-        <test-method is-config="true" signature="Tear()[pri:0, instance:BDD.Get_Demo1@732c2a62]" started-at="2024-07-12T17:37:36 IST" name="Tear" finished-at="2024-07-12T17:37:36 IST" duration-ms="478" status="PASS">
+        </test-method> <!-- URLOPEN -->
+        <test-method signature="TC1()[pri:0, instance:BrowserStack.ChromRunner@66d3eec0]" started-at="2024-07-16T12:59:58 IST" name="TC1" finished-at="2024-07-16T12:59:58 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tear -->
-      </class> <!-- BDD.Get_Demo1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TC1 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:BrowserStack.ChromRunner@66d3eec0]" started-at="2024-07-16T12:59:58 IST" name="TearDown" finished-at="2024-07-16T13:00:00 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- BrowserStack.ChromRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
