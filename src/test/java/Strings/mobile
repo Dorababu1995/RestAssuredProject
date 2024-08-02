@@ -1,0 +1,29 @@
+
+
+#Mobile Scroll
+
+AndroidDriver<MobileElement> androidDriver = (AndroidDriver<MobileElement>) driver;
+
+// Use UiScrollable to scroll
+driver.findElement(MobileBy.AndroidUIAutomator(
+    "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"TEXT_TO_SCROLL_TO\"));"));
+
+    
+    #Swipe Scroll
+    
+    
+    TouchAction
+    Tab,Swipe,Longpress,drag and drop , scrollup scroldown
+    
+    .perform()
+    Methods:
+    .longpress()
+    .press()
+    .realse()
+    .moveto()
+    .tap()
+    waitaction()
+    
+    
+    
+    
