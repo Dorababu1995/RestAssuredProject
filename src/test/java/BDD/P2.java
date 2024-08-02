@@ -6,8 +6,8 @@ public class P2 {
 		
 		
 
-		String input = "Tomorrow3";
-		String input1 = "Dorababu";
+		String input = "Tomorrow6";
+		
 
 		
 		StringBuilder result = new StringBuilder();
@@ -32,8 +32,7 @@ public class P2 {
 		}
 		
 		System.out.println(result.toString());
-		System.out.println(result.toString());
-		System.out.println(result.toString());
+	
 		
 		
 		
