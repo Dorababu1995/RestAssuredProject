@@ -5,7 +5,7 @@ public class P2 {
 	public static void main(String[] args) {
 		
 		
-		String input = "Tomorrow";
+		String input = "Tomorrow2";
 		
 		StringBuilder result = new StringBuilder();
 		
