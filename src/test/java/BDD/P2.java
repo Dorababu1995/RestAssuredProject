@@ -5,7 +5,10 @@ public class P2 {
 	public static void main(String[] args) {
 		
 		
-		String input = "Tomorrow2";
+
+		String input = "Tomorrow6";
+		
+
 		
 		StringBuilder result = new StringBuilder();
 		
@@ -29,6 +32,7 @@ public class P2 {
 		}
 		
 		System.out.println(result.toString());
+	
 		
 		
 		
